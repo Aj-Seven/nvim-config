@@ -8,7 +8,7 @@
 ## Installation. 🛠️
 
 
-- First Install vim-plug plugin by running below command.
+- First Install Neovim plugin manager by running below command.
 - It is essential for Installing the other plugin's related to nvim-config.
 ``` bash
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
