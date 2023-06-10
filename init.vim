@@ -394,7 +394,7 @@ set showmatch
 set matchtime=5
 " buffer
 set scrolloff=5
-set autochdir 
+set autochdir
 set termencoding=UTF-8
 set encoding=UTF-8
 set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb18030
@@ -426,8 +426,8 @@ let g:fzf_action = { 'ctrl-b': 'edit' }
 inoremap <expr> <c-x><c-w> fzf#vim#complete#word({'right': '20%'})
 "fzf-----------------------------------------------------------------------
 let g:LanguageClient_serverCommands = {
-\ 'rust': ['rust-analyzer'],
-\ }
+            \ 'rust': ['rust-analyzer'],
+            \ }
 
 " map usual keys, command control------------------------------------------
 imap <C-x><C-w> <plug>(fzf-complete-word)
