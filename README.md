@@ -11,8 +11,8 @@
 - First Install vim-plug plugin by running below command.
 - It is essential for Installing the other plugin's related to nvim-config.
 ``` bash
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 #### You can refer more on Installation of vim-plug [here](https://github.com/junegunn/vim-plug#installation)
 
