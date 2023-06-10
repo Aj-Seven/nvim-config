@@ -1,5 +1,5 @@
 "-----------------------vim-plug----------------------------
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.config/nvim/plugged') "call plugin manager.
 " IDE UI
 Plug 'mhinz/vim-startify'
 " coc plugins
@@ -108,7 +108,7 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists('s:std_in
 " px to rem
 Plug 'Oldenborg/vim-px-to-rem'
 let g:px_to_rem_base = 50 "use flexble.js default 1rem = 50px
-call plug#end()
+call plug#end() "end of plugin manager
 
 "------------------------------coc.nvim---------------------------------------
 set nobackup
@@ -275,7 +275,7 @@ set wildmenu
 set mousemodel=popup
 color molokai
 "-----------------------------------------------------------------------------------
-set cul
+set cul "can be commented to remove column lines
 set cuc
 set ruler
 set showcmd
@@ -334,18 +334,17 @@ autocmd filetype cs,c,cpp,kotlin,sh,zsh noremap <buffer> <F12> :Neoformat<CR>
 nnoremap <F2> :g/^\s*$/d<CR>:g/\s\+$/s<CR>
 "html
 "map! <C-O> <C-Y>,
-"
+
+"Change function keys to your relevent use.
 noremap <F3> :NERDTreeToggle<CR>
 nmap <F4> :CocCommand floaterm.toggle<CR>
 let g:floaterm_keymap_toggle = '<F4>'
 "tagbar
 noremap <F9> :TagbarToggle<CR>
-"F5
+"F5 for saving the file
 noremap <F5> :w<CR>
 "markdown preview
-
 "autocmd filetype markdown nmap <F6> :CocCommand markdown-preview-enhanced.openPreview<CR>
-
 map <F6>  <CR> :!gcc % -o %< && ./%< <CR>
 
 "------------------------------------------------------------------------------
