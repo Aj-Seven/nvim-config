@@ -277,14 +277,14 @@ color molokai
 "-----------------------------------------------------------------------------------
 set cul
 set cuc
-set ruler         
-set showcmd        
-set scrolloff=2   
-set laststatus=2  
-set foldenable    
-set foldmethod=manual  
-" set cursorline            
-set magic     
+set ruler
+set showcmd
+set scrolloff=2
+set laststatus=2
+set foldenable
+set foldmethod=manual
+" set cursorline
+set magic
 
 set autoindent
 set cindent
@@ -318,10 +318,10 @@ map <S-H> :tabp<CR>
 map <S-L> :tabn<CR>
 map <S-Left> :tabp<CR>
 map <S-Right> :tabn<CR>
-map <C-H> :bn<CR>           
-map <C-L> :bp<CR>        
-map <C-Left> :bn<CR>          
-map <C-Right> :bp<CR>    
+map <C-H> :bn<CR>
+map <C-L> :bp<CR>
+map <C-Left> :bn<CR>
+map <C-Right> :bp<CR>
 "Format Code---------------------------------------------------------------------------------------
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 map <F12> :Format<CR>
