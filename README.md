@@ -31,5 +31,5 @@ nvim +PlugInstall
 ```
 <p> It will Install the plugins directly and coc related plugins. </p>
 
-### Enjoy the Coding... 🥳
+### Happy Coding... 🥳
 
