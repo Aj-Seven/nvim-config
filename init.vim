@@ -2,6 +2,8 @@
 call plug#begin('~/.config/nvim/plugged') "call plugin manager.
 " IDE UI
 Plug 'mhinz/vim-startify'
+" Transparent
+Plug 'xiyaowong/transparent.nvim'
 " coc plugins
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 let g:coc_global_extensions=[
